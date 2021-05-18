@@ -54,6 +54,14 @@ public class BufferedUnOutputStreamDemo {
 			long end = System.currentTimeMillis();
 			System.out.printf("경과시간 : %d %n", (end-start));
 			
+			StringBuilder sb = new StringBuilder();
+			sb.append("select~~");
+			sb.append("from~~");
+			sb.append("where~~");
+			sb.append("having~~");
+			sb.append("order by~~");
+			sb.append("limit~~~");
+			
 			
 			//경과시간 : 16 밀리세컨즈, 파일크기 : 11,756kb
 			
