@@ -1,5 +1,40 @@
-package java_20210527;
+package java_20210527; //assignment for tmr
 
-public class DeptDto {
-
+public class DeptDto { //java는 클래스명에 포함된 이름을 적지 않는다. ?! 
+	private int no;//deptno
+	private String name;
+	private String loc;
+	//alt shift s c
+	public DeptDto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	//alt shift s o 
+	public DeptDto(int no, String name, String loc) {
+		super();
+		this.no = no;
+		this.name = name;
+		this.loc = loc;
+	}
+	//alt shift s r tap enter tap4 enter 
+	public int getNo() {
+		return no;
+	}
+	public void setNo(int no) {
+		this.no = no;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getLoc() {
+		return loc;
+	}
+	public void setLoc(String loc) {
+		this.loc = loc;
+	}
+	
+	
 }
